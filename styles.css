@@ -1,9 +1,53 @@
-body {
-	background: black;
-}
-.postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
+.postcard{
+	height: 400px;
+	width: 450px;
 	margin: auto;
+	position: absolute;
+	font-family: Nerko One;
 }
+.header{
+	overflow: hidden;
+}
+.header img{
+	max-width: 60px;
+	float: right;
+}
+h1{
+	font-size: 35px;
+}
+.body{
+overflow: hidden;
+}
+p{
+	width: 200px;
+	font-size: 16px;
+}
+.mainbody{
+    padding: 10px;
+}
+.right{
+	float: right;
+}
+input{
+	border-bottom: 100% solid;
+	border-color: grey;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.right input{
+	display: block;
+	font-size: 16px;
+}
+.left{
+	float: left;
+}
+.bottom{
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+
+
